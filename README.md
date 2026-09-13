@@ -1,6 +1,6 @@
 # Twisted Metal (2012) — PS3 Native PC Port
 
-**Project initiated and coordinated by Franklin Wilster (FrankCG) — Brazil 🇧🇷**
+**Project initiated and coordinated by Franklin Wilster (FranklinCG) — Brazil 🇧🇷**
 
 [Português brasileiro](README.pt-BR.md) · [Current status](docs/STATUS.md) · [Choose an area](docs/HOW_TO_HELP.md) · [Roadmap](docs/ROADMAP.md) · [Credits](CREDITS.md)
 

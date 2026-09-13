@@ -1,6 +1,6 @@
 # Twisted Metal (2012) — Port nativo de PS3 para PC
 
-**Projeto iniciado e coordenado por Franklin Wilster (FrankCG) — Brasil 🇧🇷**
+**Projeto iniciado e coordenado por Franklin Wilster (FranklinCG) — Brasil 🇧🇷**
 
 [English](README.md) · [Como ajudar](docs/HOW_TO_HELP.md) · [Tarefas](docs/WORK_ITEMS.md) · [Progresso](docs/PROGRESS.md) · [Créditos](CREDITS.md)
 
@@ -24,7 +24,7 @@ Há trabalho independente em representação de memória, coerência PPU/SPU, vi
 
 ## Créditos
 
-Franklin Wilster (FrankCG) é o iniciador e coordenador **desta iniciativa brasileira independente**. Isso não reivindica autoria do jogo original, autoria exclusiva de todo o código ou o primeiro port de Twisted Metal. Cada colaboração recebe crédito. ChatGPT e Codex são ferramentas de assistência, declaradas em [AI_USE.md](AI_USE.md), não garantia de que o código esteja correto.
+Franklin Wilster (FranklinCG) é o iniciador e coordenador **desta iniciativa brasileira independente**. Isso não reivindica autoria do jogo original, autoria exclusiva de todo o código ou o primeiro port de Twisted Metal. Cada colaboração recebe crédito. ChatGPT e Codex são ferramentas de assistência, declaradas em [AI_USE.md](AI_USE.md), não garantia de que o código esteja correto.
 
 ## Segurança e limites
 

@@ -2,18 +2,18 @@
 
 ## Founder and coordinator of this initiative
 
-**Franklin Wilster (FrankCG) — Brazil 🇧🇷**  
+**Franklin Wilster (FranklinCG) — Brazil 🇧🇷**  
 GitHub: [@franklincg](https://github.com/franklincg)
 
 Franklin initiated this independent Twisted Metal (2012) PC-port effort and coordinates its direction, validation process and community collaboration. This credit does not claim authorship of the original game, exclusive authorship of every contribution, or priority over all earlier port/recompilation projects.
 
 Suggested attribution for videos and articles:
 
-> Twisted Metal (2012) native-PC-port research initiative, started and coordinated by Franklin Wilster (FrankCG), Brazil, with AI-assisted development and community contributions.
+> Twisted Metal (2012) native-PC-port research initiative, started and coordinated by Franklin Wilster (FranklinCG), Brazil, with AI-assisted development and community contributions.
 
 Português:
 
-> Iniciativa independente de port nativo de Twisted Metal (2012) para PC, iniciada e coordenada pelo brasileiro Franklin Wilster (FrankCG), com desenvolvimento assistido por IA e contribuições da comunidade.
+> Iniciativa independente de port nativo de Twisted Metal (2012) para PC, iniciada e coordenada pelo brasileiro Franklin Wilster (FranklinCG), com desenvolvimento assistido por IA e contribuições da comunidade.
 
 ## Engineering tools
 

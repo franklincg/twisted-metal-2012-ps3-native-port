@@ -101,8 +101,8 @@
     "CREDITS.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "9d041091c0b3cebf2a10c48479f3c9f096a72b3a1dd57e37c4812529503ff6de",
-      "bytes": 2347
+      "sha256": "430e091de0f3447891226753af977d62de8f433143588b85a626e93f3069d801",
+      "bytes": 2356
     },
     "GOVERNANCE.md": {
       "origin": "original-public-contribution-kit",
@@ -125,14 +125,14 @@
     "README.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "973b7853f50216dde8a9d7b52a04acc75cfecd2b64b9f4b611b677a689d1ad1b",
-      "bytes": 5407
+      "sha256": "38252adac0aa3caf801961d26558fd6f1e16eaada4d682d47ef2b2b22e2a89ef",
+      "bytes": 5410
     },
     "README.pt-BR.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "8ade49bfad5e72e5e2fe54eca10396cd3de9ed06abea48b6b8b62e850911cbe7",
-      "bytes": 3391
+      "sha256": "a6a077d429bbf3b77d71828c411aabafb3de45812b80a96d614473620366232a",
+      "bytes": 3397
     },
     "SECURITY.md": {
       "origin": "original-public-contribution-kit",
