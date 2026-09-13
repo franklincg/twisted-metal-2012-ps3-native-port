@@ -1,9 +1,14 @@
 {
-  "status": "REPOSITORY_CREATED_PRE_PUSH",
+  "status": "PUBLISHED_CI_PASS_READBACK_PENDING",
   "repository_created": true,
-  "files_uploaded": false,
-  "issues_created": 0,
-  "branch_protection_verified": false,
+  "files_uploaded": true,
+  "issues_created": 13,
+  "branch_protection_verified": true,
   "browser_creation_attempt": "created_by_owner_human",
-  "private_development_repository_modified": false
+  "private_development_repository_modified": false,
+  "ci_verified": true,
+  "ci_run_id": 34733278735,
+  "ci_conclusion": "success",
+  "initial_commit_sha": "404ac95ca2ba776a93fe329590bf435c23389362",
+  "readback_verified": false
 }

@@ -16,7 +16,7 @@ Estamos organizando colaboração por áreas. Agora a prioridade é representaç
 
 Não distribuímos o jogo, assets, chaves ou dumps. Quer contribuir? Consulte as tarefas e proponha um escopo por issue/PR. Créditos de cada pessoa e dos projetos anteriores serão preservados.
 
-Repositório previsto: https://github.com/franklincg/twisted-metal-2012-ps3-native-port
+Repositório: https://github.com/franklincg/twisted-metal-2012-ps3-native-port
 
 ## English announcement draft
 
@@ -26,7 +26,7 @@ We're opening focused contributions around SPURS/Taskset representation, context
 
 No game/firmware assets, keys or private dumps are distributed. Contributions and upstream authorship will be credited. Please start with one scoped issue/PR rather than a large runtime rewrite.
 
-Planned repository: https://github.com/franklincg/twisted-metal-2012-ps3-native-port
+Repository: https://github.com/franklincg/twisted-metal-2012-ps3-native-port
 
 ## Media attribution
 

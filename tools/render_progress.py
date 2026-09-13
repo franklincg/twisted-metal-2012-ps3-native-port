@@ -38,6 +38,6 @@ def main() -> int:
     if a.check:
         if not dest.exists() or dest.read_text(encoding='utf-8')!=content: print('Progress document is stale',file=sys.stderr);return 1
         print('Progress document matches its explicit evidence gates');return 0
-    dest.write_text(content,encoding='utf-8');print('Updated docs/PROGRESS.md');return 0
+    dest.write_text(content,encoding='utf-8',newline='\n');print('Updated docs/PROGRESS.md');return 0
 
 if __name__=='__main__':sys.exit(main())

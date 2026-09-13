@@ -23,7 +23,7 @@ def main() -> None:
         if not origin or not origin.get('origin') or not origin.get('license'):
             raise SystemExit('Missing provenance: '+name)
         records[name]={**origin,'sha256':digest(data),'bytes':len(data)}
-    (ROOT/'publication/manifest.json').write_text(json.dumps({'schema_version':1,'self_hash_policy':'manifest is allowlisted but not self-hashed','files':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (ROOT/'publication/manifest.json').write_text(json.dumps({'schema_version':1,'self_hash_policy':'manifest is allowlisted but not self-hashed','files':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     print('Recorded',len(records),'reviewed file hashes; no files discovered or published.')
 
 if __name__=='__main__': main()

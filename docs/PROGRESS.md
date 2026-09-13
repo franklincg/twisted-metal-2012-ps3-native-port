@@ -6,7 +6,7 @@ P0 measures preparation/publication of the collaboration repository, **not the g
 
 | Milestone | Verified gates / currently listed gates | Checklist percentage |
 |---|---:|---:|
-| P0 — Public collaboration launch | 3/6 | 50.0% |
+| P0 — Public collaboration launch | 5/6 | 83.3% |
 | P1 — Combined Windows guest-state coherence | 0/2 | Not estimable |
 | P2 — State-justified boot progression | 0/2 | Not estimable |
 | P3 — Visible native menu | 0/2 | Not estimable |

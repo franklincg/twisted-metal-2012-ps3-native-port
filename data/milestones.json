@@ -35,14 +35,14 @@
         {
           "id": "P0-PROTECT",
           "name": "Actual repository protections and hosted CI verified",
-          "state": "pending",
-          "evidence": null
+          "state": "passed",
+          "evidence": "publication/repo-settings.json"
         },
         {
           "id": "P0-ISSUES",
           "name": "Initial issues published with verified URLs",
-          "state": "pending",
-          "evidence": null
+          "state": "passed",
+          "evidence": "data/work_items.json"
         }
       ]
     },

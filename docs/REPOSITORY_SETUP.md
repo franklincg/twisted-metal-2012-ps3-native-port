@@ -4,19 +4,19 @@ Target: `franklincg/twisted-metal-2012-ps3-native-port`. Create a **new empty re
 
 | Setting | Required value | Current verified state |
 |---|---|---|
-| Repository created / public | Separate target only | Verified: new public repository created; initial source push pending |
-| Default branch | main | Pending |
-| Main protection | Require PR, review, code-owner review and resolved threads | Pending |
-| Status checks | host-linux, host-windows, publication-audit once first runs exist | Pending |
-| Force pushes / branch deletion | Disallowed for main | Pending |
-| Outside-collaborator Actions | Require approval for all outside collaborators | Pending |
-| Workflow token | Read repository contents; do not permit Actions to approve PRs | Pending |
+| Repository created / public | Separate target only | Verified: public and populated |
+| Default branch | main | Verified |
+| Main protection | Require PR, review, code-owner review and resolved threads | Enabled; 1 approval + CODEOWNERS + resolved threads |
+| Status checks | host-linux, host-windows, publication-audit once first runs exist | All three required and first run passed |
+| Force pushes / branch deletion | Disallowed for main | Verified disallowed |
+| Outside-collaborator Actions | Require approval for all outside collaborators | Verified: all external contributors require approval |
+| Workflow token | Read repository contents; do not permit Actions to approve PRs | Verified: read; PR approval disabled |
 | CI runners | GitHub-hosted only; no personal/self-hosted runner | Workflow template prepared |
-| Private vulnerability reporting | Enable free public-repository feature where available | Pending |
-| Secret scanning / push protection | Enable supported free controls; no paid upgrade | Pending |
+| Private vulnerability reporting | Enable free public-repository feature where available | Enabled |
+| Secret scanning / push protection | Enable supported free controls; no paid upgrade | Both enabled |
 | Wiki | Disabled to avoid a second uncontrolled source of project status | Pending |
-| Issues | Enabled; seed work items using stable IDs | Prepared, not created |
-| Discussions / Projects board | Optional manual organization later | Not created |
+| Issues | Enabled; seed work items using stable IDs | Enabled; 13 initial issues published (#2–#14) |
+| Discussions / Projects board | Optional manual organization later | Discussions enabled; Projects not configured |
 
 CODEOWNERS only names reviewers; it does not enable branch protection. A SECURITY.md file does not enable private reporting. Until verified, state these limitations publicly rather than claiming protection.
 
