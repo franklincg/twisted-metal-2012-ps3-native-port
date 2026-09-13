@@ -1,0 +1,37 @@
+name: Contribution / work claim
+description: Choose a work-item ID and propose a bounded contribution.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload game files, keys, private dumps, personal paths or credentials. Portuguese and English are welcome."
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: "Work-item ID, intended files, dependencies and evidence plan"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and environment
+      description: "Exact public refs, host commands actually run, result and limitations."
+    validations:
+      required: true
+  - type: textarea
+    id: reuse
+    attributes:
+      label: Reuse-first search
+      description: "Same-title, ps3recomp, relevant PRs and semantic references checked."
+  - type: textarea
+    id: ai
+    attributes:
+      label: AI assistance and review
+      description: "Tool/role and what you personally reviewed, or none."
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Publication boundary
+      options:
+        - label: "This report contains no original game assets, keys, private data or unrelated files."
+          required: true

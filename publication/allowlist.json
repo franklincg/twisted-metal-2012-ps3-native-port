@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "selection": "exact relative paths; no globs or recursive workspace copy",
+  "paths": [
+    ".gitattributes",
+    ".github/CODEOWNERS",
+    ".github/ISSUE_TEMPLATE/bug.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/proposal.yml",
+    ".github/ISSUE_TEMPLATE/work.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/dependabot.yml",
+    ".github/workflows/host.yml",
+    ".gitignore",
+    "AGENTS.md",
+    "AI_USE.md",
+    "BUILDING.md",
+    "CMakeLists.txt",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "CREDITS.md",
+    "GOVERNANCE.md",
+    "LICENSE",
+    "LICENSES/ps3recomp-MIT.txt",
+    "README.md",
+    "README.pt-BR.md",
+    "SECURITY.md",
+    "SOURCES.md",
+    "THIRD_PARTY_NOTICES.md",
+    "contracts/taskset_layout.json",
+    "data/milestones.json",
+    "data/status.json",
+    "data/work_items.json",
+    "docs/ARCHITECTURE.md",
+    "docs/HOW_TO_HELP.md",
+    "docs/LEGAL_AND_ATTRIBUTION.md",
+    "docs/MODDING_AND_PLATFORMS.md",
+    "docs/OUTREACH.md",
+    "docs/PROGRESS.md",
+    "docs/PROGRESS_POLICY.md",
+    "docs/PUBLICATION_POLICY.md",
+    "docs/REPOSITORY_SETUP.md",
+    "docs/ROADMAP.md",
+    "docs/STATUS.md",
+    "docs/WORK_ITEMS.md",
+    "docs/areas/audio.md",
+    "docs/areas/build.md",
+    "docs/areas/graphics.md",
+    "docs/areas/input.md",
+    "docs/areas/memory.md",
+    "docs/areas/modding.md",
+    "docs/areas/online-platforms.md",
+    "docs/areas/ppu.md",
+    "docs/areas/spu.md",
+    "docs/areas/spurs.md",
+    "docs/areas/storage.md",
+    "labs/taskset_layout/README.md",
+    "labs/taskset_layout/probe.c",
+    "publication/LAUNCH_CHECKLIST.md",
+    "publication/PUBLICATION_STATE.json",
+    "publication/allowlist.json",
+    "publication/local_validation.json",
+    "publication/manifest.json",
+    "publication/repo-settings.json",
+    "research/h10_reference/PROVENANCE.json",
+    "research/h10_reference/README.md",
+    "research/h10_reference/active_api_extract.inc",
+    "research/h10_reference/legacy.c",
+    "research/h10_reference/representation.c",
+    "research/h10_reference/representation.h",
+    "research/h10_reference/spurs_pm.c",
+    "research/h10_reference/spurs_taskset.c",
+    "research/h10_reference/test_representation.c",
+    "tests/test_progress.py",
+    "tests/test_publication.py",
+    "tools/audit_public.py",
+    "tools/export_public.py",
+    "tools/render_progress.py",
+    "tools/seed_issues.py",
+    "tools/update_manifest.py"
+  ],
+  "origins": {
+    "README.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "README.pt-BR.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "CREDITS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "LICENSE": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "AI_USE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "CONTRIBUTING.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "GOVERNANCE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "SECURITY.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "CODE_OF_CONDUCT.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "AGENTS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "BUILDING.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/ARCHITECTURE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/PUBLICATION_POLICY.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/REPOSITORY_SETUP.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/LEGAL_AND_ATTRIBUTION.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/MODDING_AND_PLATFORMS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/OUTREACH.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "research/h10_reference/representation.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions"
+    },
+    "research/h10_reference/representation.h": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions"
+    },
+    "research/h10_reference/spurs_taskset.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions"
+    },
+    "research/h10_reference/spurs_pm.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions"
+    },
+    "research/h10_reference/legacy.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions"
+    },
+    "research/h10_reference/active_api_extract.inc": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions"
+    },
+    "research/h10_reference/test_representation.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions"
+    },
+    "LICENSES/ps3recomp-MIT.txt": {
+      "origin": "sp00nznet/ps3recomp LICENSE",
+      "license": "MIT"
+    },
+    "research/h10_reference/PROVENANCE.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "research/h10_reference/README.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".gitignore": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".gitattributes": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/CODEOWNERS": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/ISSUE_TEMPLATE/bug.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/ISSUE_TEMPLATE/work.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/ISSUE_TEMPLATE/proposal.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/memory.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/spu.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/spurs.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/ppu.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/storage.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/graphics.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/audio.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/input.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/build.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/modding.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/areas/online-platforms.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "data/work_items.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/HOW_TO_HELP.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/WORK_ITEMS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/ROADMAP.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "data/status.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/STATUS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "data/milestones.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/PROGRESS_POLICY.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "SOURCES.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "contracts/taskset_layout.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "tools/audit_public.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "tools/update_manifest.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "tools/export_public.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "tools/render_progress.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "tools/seed_issues.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "tests/test_publication.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "tests/test_progress.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "labs/taskset_layout/probe.c": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "labs/taskset_layout/README.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "CMakeLists.txt": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/workflows/host.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    ".github/dependabot.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "publication/repo-settings.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "publication/LAUNCH_CHECKLIST.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "publication/local_validation.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "publication/PUBLICATION_STATE.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT"
+    },
+    "docs/PROGRESS.md": {
+      "origin": "generated-from-reviewed-acceptance-gates",
+      "license": "MIT"
+    },
+    "publication/allowlist.json": {
+      "origin": "manual-exact-source-selection",
+      "license": "MIT"
+    }
+  }
+}

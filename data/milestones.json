@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "overall_percent": null,
+  "policy": "Only fixed acceptance gates with linked evidence may produce a percentage. No conversion of test counts to port completion.",
+  "milestones": [
+    {
+      "id": "P0",
+      "name": "Public collaboration launch",
+      "denominator_fixed": true,
+      "gates": [
+        {
+          "id": "P0-DOCS",
+          "name": "Bilingual architecture, credits and contribution workflow",
+          "state": "passed",
+          "evidence": "README.md"
+        },
+        {
+          "id": "P0-SAFE",
+          "name": "Audited allowlisted source package",
+          "state": "passed",
+          "evidence": "publication/manifest.json"
+        },
+        {
+          "id": "P0-LOCAL",
+          "name": "Public tooling/probe tests executed locally",
+          "state": "passed",
+          "evidence": "publication/local_validation.json"
+        },
+        {
+          "id": "P0-REPO",
+          "name": "Separate repository created and contents read back",
+          "state": "pending",
+          "evidence": null
+        },
+        {
+          "id": "P0-PROTECT",
+          "name": "Actual repository protections and hosted CI verified",
+          "state": "pending",
+          "evidence": null
+        },
+        {
+          "id": "P0-ISSUES",
+          "name": "Initial issues published with verified URLs",
+          "state": "pending",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "name": "Combined Windows guest-state coherence",
+      "denominator_fixed": false,
+      "gates": [
+        {
+          "id": "P1-COMBINE",
+          "name": "Actual combined candidate passes bounded Windows host integration",
+          "state": "pending",
+          "evidence": null
+        },
+        {
+          "id": "P1-LIFE",
+          "name": "Lifetime, lock order and writer coverage accepted",
+          "state": "pending",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "State-justified boot progression",
+      "denominator_fixed": false,
+      "gates": [
+        {
+          "id": "P2-PRODUCER",
+          "name": "Scheduler/producer behavior supported by actual state and bounded host proof",
+          "state": "pending",
+          "evidence": null
+        },
+        {
+          "id": "P2-RUN",
+          "name": "Separately authorized native integration demonstrates causal progression",
+          "state": "pending",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Visible native menu",
+      "denominator_fixed": false,
+      "gates": [
+        {
+          "id": "P3-STATE",
+          "name": "Natural front-end progression in an authorized native run",
+          "state": "not_verified",
+          "evidence": null
+        },
+        {
+          "id": "P3-FRAME",
+          "name": "Readable menu frame with build/run provenance",
+          "state": "not_verified",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Menu interaction",
+      "denominator_fixed": false,
+      "gates": [
+        {
+          "id": "P4-INPUT",
+          "name": "Navigation via actual input",
+          "state": "not_verified",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Playable baseline",
+      "denominator_fixed": false,
+      "gates": [
+        {
+          "id": "P5-ARENA",
+          "name": "Validated gameplay slice",
+          "state": "not_verified",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Stable game baseline",
+      "denominator_fixed": false,
+      "gates": [
+        {
+          "id": "P6-COVERAGE",
+          "name": "Accepted content and long-session compatibility matrix",
+          "state": "not_verified",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Mods, tools and additional platforms",
+      "denominator_fixed": false,
+      "gates": [
+        {
+          "id": "P7-CONTRACT",
+          "name": "Versioned extension contracts accepted after a stable baseline",
+          "state": "pending",
+          "evidence": null
+        }
+      ]
+    }
+  ]
+}

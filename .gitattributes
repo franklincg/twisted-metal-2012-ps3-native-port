@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.inc text eol=lf
+*.yml text eol=lf
+
+# Preserve exact reviewed upstream/historical bytes for provenance
+LICENSES/ps3recomp-MIT.txt -text
+research/h10_reference/active_api_extract.inc -text
+research/h10_reference/spurs_pm.c -text
+research/h10_reference/spurs_taskset.c -text

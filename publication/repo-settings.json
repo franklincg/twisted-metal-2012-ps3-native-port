@@ -1,0 +1,30 @@
+{
+  "applied": false,
+  "target": "franklincg/twisted-metal-2012-ps3-native-port",
+  "new_repository_only": true,
+  "visibility": "public",
+  "default_branch": "main",
+  "has_issues": true,
+  "has_wiki": false,
+  "has_discussions": false,
+  "allow_auto_merge": false,
+  "delete_branch_on_merge": true,
+  "private_vulnerability_reporting": "enable_if_available",
+  "secret_scanning": "enable_without_paid_upgrade_if_supported",
+  "push_protection": "enable_without_paid_upgrade_if_supported",
+  "actions_default_token": "read",
+  "actions_outside_contributors": "approval_required",
+  "self_hosted_runners": false,
+  "required_checks": [
+    "publication-audit",
+    "host-linux",
+    "host-windows"
+  ],
+  "branch_protection": {
+    "required_approving_reviews": 1,
+    "require_code_owner_reviews": true,
+    "required_conversation_resolution": true,
+    "allow_force_pushes": false,
+    "allow_deletions": false
+  }
+}

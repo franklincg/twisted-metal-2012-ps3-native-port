@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "publication_state": "repository_created_not_seeded",
+  "items": [
+    {
+      "id": "PUB-001",
+      "area": "build",
+      "priority": "P0",
+      "state": "ready",
+      "title": "Export the exact redistributable host-source build closure",
+      "depends_on": [],
+      "paths": [
+        "research/h10_reference/",
+        "publication/",
+        "BUILDING.md"
+      ],
+      "acceptance": [
+        "List every required header/helper and exact origin/license.",
+        "Export only reviewed source; no original private history, binaries or game material.",
+        "Make a fresh public host-only build reproducible with documented requirements.",
+        "Separate reference model from combined Windows runtime integration."
+      ],
+      "issue_title": "[PUB-001] Export the exact redistributable host-source build closure",
+      "body": "## Goal\nExport the exact redistributable host-source build closure.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `research/h10_reference/`\n- `publication/`\n- `BUILDING.md`\n\n## Acceptance\n- [ ] List every required header/helper and exact origin/license.\n- [ ] Export only reviewed source; no original private history, binaries or game material.\n- [ ] Make a fresh public host-only build reproducible with documented requirements.\n- [ ] Separate reference model from combined Windows runtime integration.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:build",
+        "priority:P0",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "SPU-001",
+      "area": "spu",
+      "priority": "P1",
+      "state": "ready",
+      "title": "Review reservation-context retirement and slot reuse",
+      "depends_on": [],
+      "paths": [
+        "docs/areas/spu.md",
+        "research/h10_reference/"
+      ],
+      "acceptance": [
+        "Confirm which existing public implementations provide unregister/lifetime management.",
+        "Supply a synthetic case for more than eight sequential contexts without stale wake.",
+        "Specify simultaneous-capacity behavior and cleanup on failure/exit.",
+        "Do not claim this is the cause of the consumed native stall without evidence."
+      ],
+      "issue_title": "[SPU-001] Review reservation-context retirement and slot reuse",
+      "body": "## Goal\nReview reservation-context retirement and slot reuse.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `docs/areas/spu.md`\n- `research/h10_reference/`\n\n## Acceptance\n- [ ] Confirm which existing public implementations provide unregister/lifetime management.\n- [ ] Supply a synthetic case for more than eight sequential contexts without stale wake.\n- [ ] Specify simultaneous-capacity behavior and cleanup on failure/exit.\n- [ ] Do not claim this is the cause of the consumed native stall without evidence.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:spu",
+        "priority:P1",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "MEM-001",
+      "area": "memory",
+      "priority": "P1",
+      "state": "ready",
+      "title": "Review guest Taskset layout and extend the public byte probe",
+      "depends_on": [],
+      "paths": [
+        "labs/taskset_layout/",
+        "contracts/taskset_layout.json"
+      ],
+      "acceptance": [
+        "Preserve RUNNING during legitimate task creation.",
+        "Cover boundary tasks and invalid indices.",
+        "Do not write a scalar taskCount over guest bytes at +4.",
+        "Use synthetic bytes only and state model limitations."
+      ],
+      "issue_title": "[MEM-001] Review guest Taskset layout and extend the public byte probe",
+      "body": "## Goal\nReview guest Taskset layout and extend the public byte probe.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `labs/taskset_layout/`\n- `contracts/taskset_layout.json`\n\n## Acceptance\n- [ ] Preserve RUNNING during legitimate task creation.\n- [ ] Cover boundary tasks and invalid indices.\n- [ ] Do not write a scalar taskCount over guest bytes at +4.\n- [ ] Use synthetic bytes only and state model limitations.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:memory",
+        "priority:P1",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "MEM-002",
+      "area": "memory",
+      "priority": "P1",
+      "state": "blocked",
+      "title": "Audit instance ownership and immutable launch identity",
+      "depends_on": [
+        "PUB-001"
+      ],
+      "paths": [
+        "research/h10_reference/",
+        "docs/areas/memory.md"
+      ],
+      "acceptance": [
+        "Review (owner,wid), generation and task slot versus historical global task ID.",
+        "Specify a consistent capture before async launch and validation after load.",
+        "Document stale-handle, failure and teardown cases.",
+        "Do not equate reference-model mutex coverage with all runtime writers."
+      ],
+      "issue_title": "[MEM-002] Audit instance ownership and immutable launch identity",
+      "body": "## Goal\nAudit instance ownership and immutable launch identity.\n\n## State\nblocked for complete runtime adaptation; dependencies: PUB-001. Source review can begin on the exported excerpts.\n\n## Starting files\n- `research/h10_reference/`\n- `docs/areas/memory.md`\n\n## Acceptance\n- [ ] Review (owner,wid), generation and task slot versus historical global task ID.\n- [ ] Specify a consistent capture before async launch and validation after load.\n- [ ] Document stale-handle, failure and teardown cases.\n- [ ] Do not equate reference-model mutex coverage with all runtime writers.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:memory",
+        "priority:P1",
+        "status:blocked",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "SPU-002",
+      "area": "spu",
+      "priority": "P1",
+      "state": "ready",
+      "title": "Map shared-state writers and lock order without a full-memory rewrite",
+      "depends_on": [],
+      "paths": [
+        "docs/areas/spu.md",
+        "docs/ARCHITECTURE.md"
+      ],
+      "acceptance": [
+        "For each relevant writer family record range, lock domain and evidence of overlap.",
+        "Separate observed, possible and excluded paths.",
+        "Review reusable upstream coherence and snapshot semantics before implementing.",
+        "Expose any lock-order cycle; no claim of race freedom from ASan alone."
+      ],
+      "issue_title": "[SPU-002] Map shared-state writers and lock order without a full-memory rewrite",
+      "body": "## Goal\nMap shared-state writers and lock order without a full-memory rewrite.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `docs/areas/spu.md`\n- `docs/ARCHITECTURE.md`\n\n## Acceptance\n- [ ] For each relevant writer family record range, lock domain and evidence of overlap.\n- [ ] Separate observed, possible and excluded paths.\n- [ ] Review reusable upstream coherence and snapshot semantics before implementing.\n- [ ] Expose any lock-order cycle; no claim of race freedom from ASan alone.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:spu",
+        "priority:P1",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "SPURS-001",
+      "area": "spurs",
+      "priority": "P2",
+      "state": "blocked",
+      "title": "Specify Taskset POLL return-state producers",
+      "depends_on": [
+        "MEM-002",
+        "SPU-002"
+      ],
+      "paths": [
+        "docs/areas/spurs.md"
+      ],
+      "acceptance": [
+        "Separate FOUND_TASK and FOUND_WORKLOAD meanings.",
+        "Record unknown current/selected workload rather than inventing values.",
+        "Define the system-service selection domain from pinned references.",
+        "Do not implement a selector or force return 2 merely to leave a loop."
+      ],
+      "issue_title": "[SPURS-001] Specify Taskset POLL return-state producers",
+      "body": "## Goal\nSpecify Taskset POLL return-state producers.\n\n## State\nblocked; dependencies: MEM-002, SPU-002\n\n## Starting files\n- `docs/areas/spurs.md`\n\n## Acceptance\n- [ ] Separate FOUND_TASK and FOUND_WORKLOAD meanings.\n- [ ] Record unknown current/selected workload rather than inventing values.\n- [ ] Define the system-service selection domain from pinned references.\n- [ ] Do not implement a selector or force return 2 merely to leave a loop.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:spurs",
+        "priority:P2",
+        "status:blocked",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "PPU-001",
+      "area": "ppu",
+      "priority": "P2",
+      "state": "ready",
+      "title": "Document accessor ABI and compatibility of preserved object code",
+      "depends_on": [],
+      "paths": [
+        "docs/areas/ppu.md"
+      ],
+      "acceptance": [
+        "Distinguish headers compiled inline from external symbols.",
+        "Show which source/objects must change for each proposed hook.",
+        "Keep PPU relift/recompile outside this task.",
+        "Supply a small synthetic call-boundary test or a reviewable map."
+      ],
+      "issue_title": "[PPU-001] Document accessor ABI and compatibility of preserved object code",
+      "body": "## Goal\nDocument accessor ABI and compatibility of preserved object code.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `docs/areas/ppu.md`\n\n## Acceptance\n- [ ] Distinguish headers compiled inline from external symbols.\n- [ ] Show which source/objects must change for each proposed hook.\n- [ ] Keep PPU relift/recompile outside this task.\n- [ ] Supply a small synthetic call-boundary test or a reviewable map.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:ppu",
+        "priority:P2",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "IO-001",
+      "area": "storage",
+      "priority": "P2",
+      "state": "ready",
+      "title": "Design guest VFS path and callback test fixtures",
+      "depends_on": [],
+      "paths": [
+        "docs/areas/storage.md"
+      ],
+      "acceptance": [
+        "Use a disposable synthetic directory tree.",
+        "Keep guest/host paths distinct and test bounds/byte counts.",
+        "Compare current upstream behavior before writing new code.",
+        "Do not replace the private SaveData baseline in this task."
+      ],
+      "issue_title": "[IO-001] Design guest VFS path and callback test fixtures",
+      "body": "## Goal\nDesign guest VFS path and callback test fixtures.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `docs/areas/storage.md`\n\n## Acceptance\n- [ ] Use a disposable synthetic directory tree.\n- [ ] Keep guest/host paths distinct and test bounds/byte counts.\n- [ ] Compare current upstream behavior before writing new code.\n- [ ] Do not replace the private SaveData baseline in this task.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:storage",
+        "priority:P2",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "GFX-001",
+      "area": "graphics",
+      "priority": "P2",
+      "state": "ready",
+      "title": "Define renderer ownership and visible-menu acceptance checklist",
+      "depends_on": [],
+      "paths": [
+        "docs/areas/graphics.md",
+        "data/milestones.json"
+      ],
+      "acceptance": [
+        "Separate frame presentation, actual draw output and readable menu.",
+        "Specify one device/swap-chain owner and resource lifetime.",
+        "Describe synthetic format/target tests and frame provenance.",
+        "Do not claim a decoded video or present counter proves menu rendering."
+      ],
+      "issue_title": "[GFX-001] Define renderer ownership and visible-menu acceptance checklist",
+      "body": "## Goal\nDefine renderer ownership and visible-menu acceptance checklist.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `docs/areas/graphics.md`\n- `data/milestones.json`\n\n## Acceptance\n- [ ] Separate frame presentation, actual draw output and readable menu.\n- [ ] Specify one device/swap-chain owner and resource lifetime.\n- [ ] Describe synthetic format/target tests and frame provenance.\n- [ ] Do not claim a decoded video or present counter proves menu rendering.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:graphics",
+        "priority:P2",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "AUDIO-001",
+      "area": "audio",
+      "priority": "P2",
+      "state": "ready",
+      "title": "Define a synthetic audio-buffer contract and fixtures",
+      "depends_on": [],
+      "paths": [
+        "docs/areas/audio.md"
+      ],
+      "acceptance": [
+        "Use generated tones or original permissively licensed test samples.",
+        "Specify sample format, channel order, timebase, stop/restart and errors.",
+        "Separate host test from native-game integration.",
+        "Do not upload original game music or voices."
+      ],
+      "issue_title": "[AUDIO-001] Define a synthetic audio-buffer contract and fixtures",
+      "body": "## Goal\nDefine a synthetic audio-buffer contract and fixtures.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `docs/areas/audio.md`\n\n## Acceptance\n- [ ] Use generated tones or original permissively licensed test samples.\n- [ ] Specify sample format, channel order, timebase, stop/restart and errors.\n- [ ] Separate host test from native-game integration.\n- [ ] Do not upload original game music or voices.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:audio",
+        "priority:P2",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "INPUT-001",
+      "area": "input",
+      "priority": "P2",
+      "state": "ready",
+      "title": "Define controller-state and menu-navigation test fixtures",
+      "depends_on": [],
+      "paths": [
+        "docs/areas/input.md"
+      ],
+      "acceptance": [
+        "Describe button/axis mapping, deadzones and hotplug.",
+        "Use synthetic deterministic input sequences.",
+        "Do not advance guest state without a real modeled input action.",
+        "Menu navigation remains unverified until native evidence exists."
+      ],
+      "issue_title": "[INPUT-001] Define controller-state and menu-navigation test fixtures",
+      "body": "## Goal\nDefine controller-state and menu-navigation test fixtures.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `docs/areas/input.md`\n\n## Acceptance\n- [ ] Describe button/axis mapping, deadzones and hotplug.\n- [ ] Use synthetic deterministic input sequences.\n- [ ] Do not advance guest state without a real modeled input action.\n- [ ] Menu navigation remains unverified until native evidence exists.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:input",
+        "priority:P2",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "BUILD-001",
+      "area": "build",
+      "priority": "P1",
+      "state": "ready",
+      "title": "Review public CI, allowlist and provenance gates",
+      "depends_on": [],
+      "paths": [
+        ".github/",
+        "tools/",
+        "publication/",
+        "tests/"
+      ],
+      "acceptance": [
+        "Keep CI on ephemeral GitHub-hosted runners, with no private secrets.",
+        "Verify unexpected files and content hashes fail closed.",
+        "Pin external actions; do not use privileged untrusted-code execution.",
+        "Do not claim settings are applied merely because a template exists."
+      ],
+      "issue_title": "[BUILD-001] Review public CI, allowlist and provenance gates",
+      "body": "## Goal\nReview public CI, allowlist and provenance gates.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `.github/`\n- `tools/`\n- `publication/`\n- `tests/`\n\n## Acceptance\n- [ ] Keep CI on ephemeral GitHub-hosted runners, with no private secrets.\n- [ ] Verify unexpected files and content hashes fail closed.\n- [ ] Pin external actions; do not use privileged untrusted-code execution.\n- [ ] Do not claim settings are applied merely because a template exists.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:build",
+        "priority:P1",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    },
+    {
+      "id": "DOC-001",
+      "area": "build",
+      "priority": "P2",
+      "state": "ready",
+      "title": "Maintain bilingual status and evidence-based progress",
+      "depends_on": [],
+      "paths": [
+        "README.md",
+        "README.pt-BR.md",
+        "docs/PROGRESS.md",
+        "data/"
+      ],
+      "acceptance": [
+        "Keep language versions consistent on current state and credits.",
+        "Compute percentages only from documented fixed acceptance denominators.",
+        "Label historical/component/integration/native/visual evidence separately.",
+        "No fabricated ETA, overall port percent or imported public-port achievement."
+      ],
+      "issue_title": "[DOC-001] Maintain bilingual status and evidence-based progress",
+      "body": "## Goal\nMaintain bilingual status and evidence-based progress.\n\n## State\nready; dependencies: none for review/fixture work\n\n## Starting files\n- `README.md`\n- `README.pt-BR.md`\n- `docs/PROGRESS.md`\n- `data/`\n\n## Acceptance\n- [ ] Keep language versions consistent on current state and credits.\n- [ ] Compute percentages only from documented fixed acceptance denominators.\n- [ ] Label historical/component/integration/native/visual evidence separately.\n- [ ] No fabricated ETA, overall port percent or imported public-port achievement.\n\n## Limits\nHost-only/public research. Search/reuse first. No game files, private workstation access, automatic native run, forced completion or license changes. Check CONTRIBUTING.md before starting.\n\n## Claim\nComment with a bounded plan before duplicating another contributor's implementation. Independent review is welcome.\n",
+      "labels": [
+        "area:build",
+        "priority:P2",
+        "status:ready",
+        "help wanted"
+      ],
+      "github_issue_number": null
+    }
+  ]
+}

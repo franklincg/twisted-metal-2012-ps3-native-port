@@ -1,0 +1,147 @@
+{
+  "status": "PASS_LOCAL_PUBLIC_KIT_CHECKS",
+  "scope": "public collaboration tooling and synthetic byte-layout probe only; not the H10 runtime",
+  "snapshot_date": "2026-09-12",
+  "environment": {
+    "os": "Linux",
+    "compiler": "GNU C 14.2.0",
+    "python": "3.13.5",
+    "windows_tested_here": true
+  },
+  "python_unit_tests": {
+    "tests": 31,
+    "passed": 31,
+    "failed": 0,
+    "command": "python -B -m unittest discover -s tests -v",
+    "names": [
+      "test_fixed_denominator",
+      "test_rejects_duplicate_id",
+      "test_rejects_empty_denominator",
+      "test_rejects_overall_guess",
+      "test_repository_data",
+      "test_requires_evidence",
+      "test_status_does_not_claim_game_ready",
+      "test_unknown_denominator",
+      "test_work_item_ids_and_dependencies",
+      "test_absolute",
+      "test_archive",
+      "test_binary",
+      "test_changed_source",
+      "test_empty_segment",
+      "test_env",
+      "test_export_only_allowlist",
+      "test_export_refuses_changed",
+      "test_export_refuses_existing",
+      "test_export_refuses_nested",
+      "test_large",
+      "test_missing",
+      "test_personal_path",
+      "test_symlink",
+      "test_token",
+      "test_traversal",
+      "test_unlisted",
+      "test_utf8",
+      "test_valid_relative",
+      "test_valid_tree",
+      "test_windows_absolute",
+      "test_workflow_pin"
+    ]
+  },
+  "c_probe": {
+    "normal": {
+      "suite": "public_synthetic_layout_probe",
+      "assertions": 524,
+      "failed": 0,
+      "game_executed": false,
+      "production_integration_proved": false
+    },
+    "address_and_undefined_sanitizers": {
+      "suite": "public_synthetic_layout_probe",
+      "assertions": 524,
+      "failed": 0,
+      "game_executed": false,
+      "production_integration_proved": false
+    },
+    "sanitizer_diagnostics_observed": 0,
+    "note": "Repeated sanitizer observations are not additional distinct assertions.",
+    "assertions_per_run": 524
+  },
+  "ctest": {
+    "normal": {
+      "tests": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "address_and_undefined_sanitizers": {
+      "tests": 1,
+      "passed": 1,
+      "failed": 0
+    }
+  },
+  "export_source_audit": {
+    "files": 76,
+    "result": "PASS",
+    "scope": "exact selected source files; no private-workspace recursion or Git history"
+  },
+  "raw_test_log_hashes": {
+    "build_normal.log": "375155609cbb12c84cabef8150b74ec8d4ac0a06ec2fca24050ac05adc74d59b",
+    "build_sanitize.log": "375155609cbb12c84cabef8150b74ec8d4ac0a06ec2fca24050ac05adc74d59b",
+    "cmake_normal.log": "3246081876312920c2bf1032281de803727169567b512da8a413b51af7d86c7f",
+    "cmake_sanitize.log": "d0355fe83623c054e2110309560f000c6b755f1cc33dd2e2f4d4b2bc3529d4da",
+    "ctest_normal.log": "650463882f1b9bbabf4ff0092f13ebe33ae9084f5c7b0132f3d033fcd0aacf86",
+    "ctest_sanitize.log": "cd723e5e9b01ff1bb9ba71b01f77f56934c9356419b8ef1525b47ca5748bcdf3",
+    "python_tests.log": "b1a320def13d6654beac237b7cd6e9118859de49214b81c54041a3d291f2855f"
+  },
+  "raw_logs_in_public_package": false,
+  "historical_H10_suites_rerun": false,
+  "game_executed": false,
+  "game_build_link_run": [
+    0,
+    0,
+    0
+  ],
+  "ppu_recompiled": false,
+  "windows_tested_in_this_preparation": true,
+  "github_ci_ran": false,
+  "github_repository_created": true,
+  "limitations": [
+    "No complete game-runtime export or combined H10 integration proof.",
+    "Sanitizers do not prove absence of data races.",
+    "Basic secret/type/path audit is not an absolute security or licensing guarantee."
+  ],
+  "additional_checks": {
+    "json_files_parsed": 10,
+    "github_yaml_parsed": true,
+    "local_markdown_links": "PASS",
+    "selected_historical_sources_byte_matched": 7,
+    "private_development_repository_link_in_export": false,
+    "issue_seed_dry_run": {
+      "issues": 13,
+      "writes": 0
+    }
+  },
+  "windows_prepush_validation": {
+    "date": "2026-09-12",
+    "scope": "fresh checkout of staged public index only",
+    "python_unit_tests": {
+      "total": 31,
+      "passed": 30,
+      "failed": 0,
+      "skipped": 1,
+      "skip_reason": "symlink creation not permitted"
+    },
+    "cmake_generator": "Visual Studio 17 2022",
+    "compiler": "MSVC 19.44.35228.0",
+    "ctest": {
+      "tests": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "game_executed": false,
+    "game_build_link_run": [
+      0,
+      0,
+      0
+    ]
+  }
+}

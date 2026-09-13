@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "scope": "synthetic diagnostic contract; not an official SDK or integrated runtime",
+  "byte_order": "big",
+  "task_limit": 128,
+  "taskset_extent": 6400,
+  "fields": {
+    "RUNNING": {
+      "offset": 0,
+      "bytes": 16
+    },
+    "READY": {
+      "offset": 16,
+      "bytes": 16
+    },
+    "ENABLED": {
+      "offset": 48,
+      "bytes": 16
+    },
+    "WKL_FLAG_WAIT": {
+      "offset": 114,
+      "bytes": 1
+    },
+    "WID": {
+      "offset": 116,
+      "bytes": 4
+    }
+  },
+  "no_scalar_task_count_at_offset_4": true,
+  "reference": "research/h10_reference and cited ps3recomp layout research"
+}

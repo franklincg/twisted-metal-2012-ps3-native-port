@@ -1,0 +1,7 @@
+# Effective review enforcement still requires GitHub branch protection.
+* @franklincg
+/.github/ @franklincg
+/publication/ @franklincg
+/tools/ @franklincg
+/LICENSE @franklincg
+/LICENSES/ @franklincg

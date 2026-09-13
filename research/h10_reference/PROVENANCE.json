@@ -1,0 +1,66 @@
+{
+  "kind": "selected-source-review-export",
+  "original_archive_sha256": "cc2242049e7b3ac80ca2bd426288b3bb57a3ba3812c5222e0ae65acf312c6cda",
+  "contains_binaries": false,
+  "contains_game_assets": false,
+  "historical_source_not_rerun": true,
+  "upstream_license_url": "https://github.com/sp00nznet/ps3recomp/blob/fddf580d48b4c71b2fa2a5ac6356a706bf873c35/LICENSE",
+  "files": [
+    {
+      "path": "research/h10_reference/representation.c",
+      "sha256": "f0bba11a6c0b35f8c1210496e9222186fa4357c8e737c281453a282625710d19",
+      "bytes": 6321,
+      "scope": "standalone host research, not game-generated code",
+      "integration": "not a production replacement",
+      "modification": "none; byte-preserved from selected input"
+    },
+    {
+      "path": "research/h10_reference/representation.h",
+      "sha256": "50b9109371f8998265ecd336258072908ae6fd304e341413818217783fca3a4d",
+      "bytes": 1397,
+      "scope": "standalone host research, not game-generated code",
+      "integration": "not a production replacement",
+      "modification": "none; byte-preserved from selected input"
+    },
+    {
+      "path": "research/h10_reference/spurs_taskset.c",
+      "sha256": "0b29e3bf6b0e161f7359c11d50dd23a20d31ab4f8229d8d69b9011fd4585936a",
+      "bytes": 2818,
+      "scope": "standalone host research, not game-generated code",
+      "integration": "not a production replacement",
+      "modification": "none; byte-preserved from selected input"
+    },
+    {
+      "path": "research/h10_reference/spurs_pm.c",
+      "sha256": "42554668bcd1d3ad2389789b55de5a71981df5b99a895f0d5a7e2d77cb951170",
+      "bytes": 5090,
+      "scope": "standalone host research, not game-generated code",
+      "integration": "not a production replacement",
+      "modification": "none; byte-preserved from selected input"
+    },
+    {
+      "path": "research/h10_reference/legacy.c",
+      "sha256": "b233c4cc47517b9a38172be8b3627f36af8f400ef1cf3e2005d7b629be1f9560",
+      "bytes": 2730,
+      "scope": "standalone host research, not game-generated code",
+      "integration": "not a production replacement",
+      "modification": "none; byte-preserved from selected input"
+    },
+    {
+      "path": "research/h10_reference/active_api_extract.inc",
+      "sha256": "c44c39577eddc42146e87c15fc2e3a7361b55f58ecbf66891905490143fdc30d",
+      "bytes": 9050,
+      "scope": "standalone host research, not game-generated code",
+      "integration": "not a production replacement",
+      "modification": "none; byte-preserved from selected input"
+    },
+    {
+      "path": "research/h10_reference/test_representation.c",
+      "sha256": "2d5f8bad21346aa013ec92b56b298d6d54e3e06a7eb4eb9704b066b0069a3711",
+      "bytes": 11596,
+      "scope": "standalone host research, not game-generated code",
+      "integration": "not a production replacement",
+      "modification": "none; byte-preserved from selected input"
+    }
+  ]
+}

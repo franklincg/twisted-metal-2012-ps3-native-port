@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "self_hash_policy": "manifest is allowlisted but not self-hashed",
+  "files": {
+    ".gitattributes": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "f48bbe302d578f345713f58966aa93de6d3e8169d3bdf65956a9bb1346929303",
+      "bytes": 378
+    },
+    ".github/CODEOWNERS": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "e3f3dd4b2ef76f0a8cab50b648b4e06c93e5d56445a2a142eb577036bc53c3a4",
+      "bytes": 198
+    },
+    ".github/ISSUE_TEMPLATE/bug.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "bcc4401fd78fb91757ed12d2629886285b381a7a9540311cb34f29441896a8a7",
+      "bytes": 1225
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb",
+      "bytes": 28
+    },
+    ".github/ISSUE_TEMPLATE/proposal.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "d79bd1e463e79084c3186808e37cc7441d7218079140ffc2f0cf2c3800315df7",
+      "bytes": 1249
+    },
+    ".github/ISSUE_TEMPLATE/work.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "efccb0f993ae10ecee7bb9be0ea3b1e8cbea0317d12c15b0a0fa421ea1058a71",
+      "bytes": 1240
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "756b780ce74164e5463b5254dae26ead909e73619a764e520f82ff3ce2b91340",
+      "bytes": 843
+    },
+    ".github/dependabot.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "fbdaf09b0a6c019dc5c96006b474b33710912346e15cd63e80a4ca2365960b02",
+      "bytes": 145
+    },
+    ".github/workflows/host.yml": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "6b878bde8d96b60ae2bd1f71ebc7d87692d24e3cd3cb46bcba703e32d5a295d2",
+      "bytes": 1450
+    },
+    ".gitignore": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "27666ace2a555b99d2d797f21d1103c94ccd3c29c18aa8eb1930c0b2ce9e9b06",
+      "bytes": 295
+    },
+    "AGENTS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "3d4484ee0f9b07ce2c2f64700b7ca719904ecffddc1e1da4f26aed643bf4f89d",
+      "bytes": 1444
+    },
+    "AI_USE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "500cfa136c0e230e3ad656d71b436493fc6c36e4b5da5eb87e69ea4b9dd2d4e2",
+      "bytes": 1064
+    },
+    "BUILDING.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "aaa370cc9c8ca83af246dc6fd156bfd8825539940979f72221b597cb070deb90",
+      "bytes": 1965
+    },
+    "CMakeLists.txt": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "5def7eb41ead7b3c10603a4ffa8619d125842c2ee8e903ccf8fa06a917668c4d",
+      "bytes": 1127
+    },
+    "CODE_OF_CONDUCT.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "6a41411ded8daeee792a2474ffc45b0ea7653f51de857771b625b60ae431f8de",
+      "bytes": 675
+    },
+    "CONTRIBUTING.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "b94badfc9532d284237aec761344d51037f84ed09a80c229fa46a01ba019c9e4",
+      "bytes": 3472
+    },
+    "CREDITS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "9d041091c0b3cebf2a10c48479f3c9f096a72b3a1dd57e37c4812529503ff6de",
+      "bytes": 2347
+    },
+    "GOVERNANCE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "5332ae7a0871fe3df38293d0dca4db7e8d60110b9f00e698d2fbc296ff14a39c",
+      "bytes": 1574
+    },
+    "LICENSE": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "8334b72efceea76a865410340b09b0da5c33147f7ee30b07d6d68b134efd1013",
+      "bytes": 1090
+    },
+    "LICENSES/ps3recomp-MIT.txt": {
+      "origin": "sp00nznet/ps3recomp LICENSE",
+      "license": "MIT",
+      "sha256": "f0764416021205daab1c3c2eb3b5cb129c7a57cd41ae09706f5388a9c8aefee6",
+      "bytes": 1100
+    },
+    "README.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "973b7853f50216dde8a9d7b52a04acc75cfecd2b64b9f4b611b677a689d1ad1b",
+      "bytes": 5407
+    },
+    "README.pt-BR.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "8ade49bfad5e72e5e2fe54eca10396cd3de9ed06abea48b6b8b62e850911cbe7",
+      "bytes": 3391
+    },
+    "SECURITY.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "b33bd0cecc3f19557036a2088f95cd24f8216d9c22e24f3eca1b9aac82f1ddbd",
+      "bytes": 1480
+    },
+    "SOURCES.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "2ff82fdfc617afdbe8760c88fc42649537d8173f63d3f45d38f99b3c791d7fdf",
+      "bytes": 2056
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "604d64735de7cb8d227f9750c0bbec2b452c4c4b43ba54200049a4e8d2d05aab",
+      "bytes": 1210
+    },
+    "contracts/taskset_layout.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "e70feb176fc2d8b5aa9a304c76b8f3bd5ba34c8b4caaca510be9453c66b9a996",
+      "bytes": 631
+    },
+    "data/milestones.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "80a14d213fc7e11706c69d4414aba686b6fdedccd8c795632bfb7d0b6be0eecc",
+      "bytes": 4223
+    },
+    "data/status.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "aea03b0d10022ef9be549ef1c58cf24e1247bd806bb12beb3252da2bf010ea41",
+      "bytes": 2102
+    },
+    "data/work_items.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "56a7c5262d928ca1359a14619e340c74c0029a8948c4a12f2f3539b670858bd6",
+      "bytes": 22483
+    },
+    "docs/ARCHITECTURE.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "cb219a7b6568bf793620193844849a12232e94df4a689adfad8f5d78bfb7e337",
+      "bytes": 3663
+    },
+    "docs/HOW_TO_HELP.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "9150860fc78b79116d44b54579f7ad4ea22d07d3c4e7867ec391ad9d337ad56f",
+      "bytes": 1789
+    },
+    "docs/LEGAL_AND_ATTRIBUTION.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "77f5b6c8ccfe42d6d87f2004bc13b3d07241155333b34f107b5b5d7fbfff8d79",
+      "bytes": 1482
+    },
+    "docs/MODDING_AND_PLATFORMS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "c10366bc0575cd902ad41cf27cf7208f02a45375ff8dfddb391efc6ffb58b89d",
+      "bytes": 2898
+    },
+    "docs/OUTREACH.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "c477abed7618edea096a39432a07f0ce70bf94e4a0efe129038fb25f7cb3e51a",
+      "bytes": 3141
+    },
+    "docs/PROGRESS.md": {
+      "origin": "generated-from-reviewed-acceptance-gates",
+      "license": "MIT",
+      "sha256": "0040dec573adc2de8d333e8afe629c357cea9273868d533a4f0f0c715d2092a8",
+      "bytes": 1089
+    },
+    "docs/PROGRESS_POLICY.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "37779d5d9d11b26cb1f26cc72ede8a156de6239eb9e2ad65cb5914c82f1dcb8f",
+      "bytes": 1075
+    },
+    "docs/PUBLICATION_POLICY.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "327f3524231135248f4f632168c531550dc7b998a64bb9a029dac9053a3cbfdc",
+      "bytes": 2758
+    },
+    "docs/REPOSITORY_SETUP.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "9ec8238d640bb6c9d351893c0d376453977441fc0d66d584e0c90f6c01069649",
+      "bytes": 2688
+    },
+    "docs/ROADMAP.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "10ea3f473ab77a4312ca8a0371f0feed2cc9ba055801746aff76b95d81e4bae8",
+      "bytes": 1684
+    },
+    "docs/STATUS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "f5ac9f564d6c558e70d095bee2391434f7efa45d0cd382d0e9200c760dc65aca",
+      "bytes": 2189
+    },
+    "docs/WORK_ITEMS.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "3c15b9387c7f206988ab5469c875e2b7732d64b2fff0cdd718a5648f5bd9001a",
+      "bytes": 1883
+    },
+    "docs/areas/audio.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "2283a01ffc5efbf9381316e2e20ff9a7b433811669e55ee7b909d7f9ef74a468",
+      "bytes": 891
+    },
+    "docs/areas/build.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "bb3d3017f065b1de3b9dbb0986b195a0a8526d81daed724eb74a796563096bcc",
+      "bytes": 926
+    },
+    "docs/areas/graphics.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "5a3d3d3b7176ca8f0c0c19ed398058179a4c17891292cc50dfe92dc91d07db07",
+      "bytes": 937
+    },
+    "docs/areas/input.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "d7cf86e25cfecb583587d3005f934ab20e8de199bbda8e013b1d8b8ed0b1cead",
+      "bytes": 877
+    },
+    "docs/areas/memory.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "6e93d536629dfa3449548ad7bdfd38149fe48f6d055205d4e0b1920d39d6e5f2",
+      "bytes": 979
+    },
+    "docs/areas/modding.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "e1d7eaf2a764b762fbc3ed52770d1655c9546218bd7feba036f769a2597b746f",
+      "bytes": 901
+    },
+    "docs/areas/online-platforms.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "1b03321c1a8f3e750908f211a52c25c4451740ec53c8c15ad5cc99b2d3a5d9a6",
+      "bytes": 901
+    },
+    "docs/areas/ppu.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "0d4d0f47acd1297b0ab343c4a46a19468201d8289c5a1d6604cafe1476663bc3",
+      "bytes": 913
+    },
+    "docs/areas/spu.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "ad359d3fa6441b0091e47e1a03b495bb58cae2c388621095f73a4ec8c3643298",
+      "bytes": 979
+    },
+    "docs/areas/spurs.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "c263894f733fbb094ad764cd726c32292d9c01a03b28857870497df7b7e68b77",
+      "bytes": 976
+    },
+    "docs/areas/storage.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "dcde4e6d2a14da4d52971090ead7d051102a8c20056c7d00bbd1b2fcd4ab4efd",
+      "bytes": 937
+    },
+    "labs/taskset_layout/README.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "6d075da3953d3759beb2674979d245f48fb4399e7949d6fbc6689a0c269305ea",
+      "bytes": 856
+    },
+    "labs/taskset_layout/probe.c": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "e23539aa1743c697fe463ee1db33d1ce288bb6a26add2be6b86f8f48e012cfe2",
+      "bytes": 3254
+    },
+    "publication/LAUNCH_CHECKLIST.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "e89f67f48682c8acad61a2012c11d823df0260406c17d704d89f8e131e6d63d4",
+      "bytes": 1089
+    },
+    "publication/PUBLICATION_STATE.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "dbeca95856ac237375591f8098a610616ac1d9240283545e52d7a247e3e62aff",
+      "bytes": 273
+    },
+    "publication/allowlist.json": {
+      "origin": "manual-exact-source-selection",
+      "license": "MIT",
+      "sha256": "7cff201a16eec2e4963c535b0f609fb73fc1bddb835b72040862695c2bd33206",
+      "bytes": 11592
+    },
+    "publication/local_validation.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "f31d6a3a83b9a3ba765779a22310fed6d43ac4ed9e40b7ce3f1cb9350a3df06d",
+      "bytes": 4393
+    },
+    "publication/repo-settings.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "9f054d086b93b03845ed66d75447c3bd73f9f5546a4d63d3bbb9a273c474e119",
+      "bytes": 920
+    },
+    "research/h10_reference/PROVENANCE.json": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "bccea2f3f10856a8d458ebf4dbbf49561afa5782a31b5fbe042ddbe04d86bd0d",
+      "bytes": 2908
+    },
+    "research/h10_reference/README.md": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "def0a832bc3627643c578feec0057576e248b85ac6066e4e9d11c45080e1fba1",
+      "bytes": 1740
+    },
+    "research/h10_reference/active_api_extract.inc": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions",
+      "sha256": "c44c39577eddc42146e87c15fc2e3a7361b55f58ecbf66891905490143fdc30d",
+      "bytes": 9050
+    },
+    "research/h10_reference/legacy.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions",
+      "sha256": "b233c4cc47517b9a38172be8b3627f36af8f400ef1cf3e2005d7b629be1f9560",
+      "bytes": 2730
+    },
+    "research/h10_reference/representation.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions",
+      "sha256": "f0bba11a6c0b35f8c1210496e9222186fa4357c8e737c281453a282625710d19",
+      "bytes": 6321
+    },
+    "research/h10_reference/representation.h": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions",
+      "sha256": "50b9109371f8998265ecd336258072908ae6fd304e341413818217783fca3a4d",
+      "bytes": 1397
+    },
+    "research/h10_reference/spurs_pm.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions",
+      "sha256": "42554668bcd1d3ad2389789b55de5a71981df5b99a895f0d5a7e2d77cb951170",
+      "bytes": 5090
+    },
+    "research/h10_reference/spurs_taskset.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions",
+      "sha256": "0b29e3bf6b0e161f7359c11d50dd23a20d31ab4f8229d8d69b9011fd4585936a",
+      "bytes": 2818
+    },
+    "research/h10_reference/test_representation.c": {
+      "origin": "maintainer-supplied-historical-host-model",
+      "license": "MIT; retained ps3recomp notice for derivative/extracted portions",
+      "sha256": "2d5f8bad21346aa013ec92b56b298d6d54e3e06a7eb4eb9704b066b0069a3711",
+      "bytes": 11596
+    },
+    "tests/test_progress.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "5ec1ddc7858bc248a75d13a46cf42aa0aaf18a7222f4d3d7934098a8e92584b9",
+      "bytes": 2139
+    },
+    "tests/test_publication.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "28315141d1dcb1c8f2a867c4c8465a0b531e1bad0a2a4c7fa0687f9ed0afed6b",
+      "bytes": 4485
+    },
+    "tools/audit_public.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "b1e9211b58e5b2f01731522cab03d7749819d814dd24f47f52990937e1942fa8",
+      "bytes": 6767
+    },
+    "tools/export_public.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "8b381c7e4cf1c7d3f1a088eee49b86b91241618055f3e1b7ac23d742e71078d6",
+      "bytes": 2173
+    },
+    "tools/render_progress.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "75ff94f78feb6dd7210bde7e81f8f4b7c2b27b45f45180ee16eef8dc8c426c4f",
+      "bytes": 2660
+    },
+    "tools/seed_issues.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "9a98bc5c09648370f3b7571560ca1130465903aa3ecc52ded4bdafb0b8d011dc",
+      "bytes": 3092
+    },
+    "tools/update_manifest.py": {
+      "origin": "original-public-contribution-kit",
+      "license": "MIT",
+      "sha256": "4c258fb5db277bbd5cae5e7e9494f93aff9e3cc9f9a0b53cd57a96e2e5eb1525",
+      "bytes": 1664
+    }
+  }
+}
