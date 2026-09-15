@@ -161,8 +161,8 @@
     "data/milestones.json": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "c5ef3ab743f8b0321abe1020e7a06b793d910d1cf289735c4ca2e274baadc7a1",
-      "bytes": 4495
+      "sha256": "fa46312e7f9975d371791ac2b80c079c8f1be7203572a231402315ad29f4fbaf",
+      "bytes": 4336
     },
     "data/status.json": {
       "origin": "original-public-contribution-kit",
@@ -239,8 +239,8 @@
     "docs/STATUS.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "416d4220da385557d495aaf8c858a1a15bd322fe7e826e0e5038ee9e92d4ee9f",
-      "bytes": 2800
+      "sha256": "8b26284cf49caeffd7abc2a8e7e660105a2498e8c1a060c8212ba5c6ee5cfdbb",
+      "bytes": 2775
     },
     "docs/WORK_ITEMS.md": {
       "origin": "original-public-contribution-kit",
@@ -305,8 +305,8 @@
     "docs/areas/spurs.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "c0023385e0a40c2f7c331a8bc6f9080fe5d423da2e6f32b809eb33e67c71f667",
-      "bytes": 2109
+      "sha256": "18b8d3be175edd1af7ab1c8ff0b82518bcd094ced914052f5281b31232d34230",
+      "bytes": 2081
     },
     "docs/areas/storage.md": {
       "origin": "original-public-contribution-kit",
@@ -335,8 +335,8 @@
     "publication/PUBLICATION_STATE.json": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "3eee43fd93cdc9be4621981ed4f841562044adc2d961b0c0c3c57cb7c727f6d6",
-      "bytes": 511
+      "sha256": "f84fda4f1dc9a1b4c8a7906e353aa5048c1640b32adcd15fb949760478fa48f2",
+      "bytes": 496
     },
     "publication/allowlist.json": {
       "origin": "manual-exact-source-selection",
