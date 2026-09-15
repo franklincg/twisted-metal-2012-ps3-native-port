@@ -43,3 +43,6 @@ jobs:
       - run: cmake -S . -B build
       - run: cmake --build build --config Release
       - run: ctest --test-dir build -C Release --output-on-failure
+      - run: cmake -S . -B build-h10 -DTM_PUBLIC_H10_REFERENCE=ON
+      - run: cmake --build build-h10 --config Release --target tm2012_h10_reference
+      - run: ctest --test-dir build-h10 -C Release -R h10_reference_host --output-on-failure

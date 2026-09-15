@@ -62,5 +62,78 @@
       "integration": "not a production replacement",
       "modification": "none; byte-preserved from selected input"
     }
-  ]
+  ],
+  "historical_build_closure": {
+    "validated_platform": "Windows host only",
+    "compiler_proof": "MSVC 19.44 with /std:c17 /experimental:c11atomics; 121/121 host checks in local public-clone validation",
+    "game_executed": false,
+    "native_runtime_integration_proved": false,
+    "upstream_base_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+    "current_upstream_reference": "fddf580d48b4c71b2fa2a5ac6356a706bf873c35",
+    "files": [
+      {
+        "path": "research/h10_reference/upstream/ps3recomp/include/ps3emu/endian.h",
+        "sha256": "07e796497b1251ec3c5cf9bf9efded7d2f4a69c839b8192be81cc5f39cd0735d",
+        "bytes": 3754,
+        "upstream_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+        "upstream_path": "include/ps3emu/endian.h",
+        "license": "MIT",
+        "modification": "none; byte-preserved from pinned upstream commit"
+      },
+      {
+        "path": "research/h10_reference/upstream/ps3recomp/include/ps3emu/error_codes.h",
+        "sha256": "20af4129ab358a83b3aad6489edf4815998a92802a3d8bb93aee50a6c725a8fc",
+        "bytes": 9289,
+        "upstream_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+        "upstream_path": "include/ps3emu/error_codes.h",
+        "license": "MIT",
+        "modification": "none; byte-preserved from pinned upstream commit"
+      },
+      {
+        "path": "research/h10_reference/upstream/ps3recomp/include/ps3emu/ps3types.h",
+        "sha256": "47d000286f589eca58f3647e4b3213e75f8d4164a6c50ad59e3a3754ac6ffec6",
+        "bytes": 7094,
+        "upstream_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+        "upstream_path": "include/ps3emu/ps3types.h",
+        "license": "MIT",
+        "modification": "none; byte-preserved from pinned upstream commit"
+      },
+      {
+        "path": "research/h10_reference/upstream/ps3recomp/libs/spurs/cellSpurs.h",
+        "sha256": "33d99a2e555ff82597ce79349106483e5926dc9e1793a661e5550fde2138a9b0",
+        "bytes": 11461,
+        "upstream_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+        "upstream_path": "libs/spurs/cellSpurs.h",
+        "license": "MIT",
+        "modification": "none; byte-preserved from pinned upstream commit"
+      },
+      {
+        "path": "research/h10_reference/upstream/ps3recomp/libs/spurs/spurs_taskset.h",
+        "sha256": "bbd768fa5fa9191f90d3cda4f366c3d2a21e0decdbcb8b49e0902d91b26de44f",
+        "bytes": 7345,
+        "upstream_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+        "upstream_path": "libs/spurs/spurs_taskset.h",
+        "license": "MIT",
+        "modification": "TM64181_VM_ACCESS_INLINE: replaces four external vm_read/vm_write declarations with the canonical ppu_memory.h include to preserve static-inline linkage under clang-cl"
+      },
+      {
+        "path": "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_context.h",
+        "sha256": "0fe6e1fee2f6791ec750017f401f4adf22f6bb949ae026070b715ae4fd81f6e1",
+        "bytes": 6812,
+        "upstream_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+        "upstream_path": "runtime/ppu/ppu_context.h",
+        "license": "MIT",
+        "modification": "none; byte-preserved from pinned upstream commit"
+      },
+      {
+        "path": "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_memory.h",
+        "sha256": "517c6b34215efa76680151cb6e7a4bb87fd01371bc734f330a096fd579e6bc64",
+        "bytes": 7298,
+        "upstream_commit": "25e5efe1793fffb0e98782f35a6e6a73e552bd8f",
+        "upstream_path": "runtime/ppu/ppu_memory.h",
+        "license": "MIT",
+        "modification": "none; byte-preserved from pinned upstream commit"
+      }
+    ]
+  }
 }
