@@ -1,5 +1,5 @@
 {
-  "status": "PUBLISHED_CI_PASS_READBACK_PENDING",
+  "status": "PUBLISHED_CI_PASS_READBACK_PASS",
   "repository_created": true,
   "files_uploaded": true,
   "issues_created": 13,
@@ -10,5 +10,6 @@
   "ci_run_id": 34733278735,
   "ci_conclusion": "success",
   "initial_commit_sha": "404ac95ca2ba776a93fe329590bf435c23389362",
-  "readback_verified": false
+  "readback_verified": true,
+  "readback_verified_date": "2026-09-15"
 }

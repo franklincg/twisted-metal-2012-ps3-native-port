@@ -29,8 +29,8 @@
         {
           "id": "P0-REPO",
           "name": "Separate repository created and contents read back",
-          "state": "pending",
-          "evidence": null
+          "state": "passed",
+          "evidence": "publication/PUBLICATION_STATE.json"
         },
         {
           "id": "P0-PROTECT",
@@ -54,14 +54,14 @@
         {
           "id": "P1-COMBINE",
           "name": "Actual combined candidate passes bounded Windows host integration",
-          "state": "pending",
-          "evidence": null
+          "state": "passed",
+          "evidence": "docs/STATUS.md"
         },
         {
           "id": "P1-LIFE",
           "name": "Lifetime, lock order and writer coverage accepted",
-          "state": "pending",
-          "evidence": null
+          "state": "passed",
+          "evidence": "docs/STATUS.md"
         }
       ]
     },
@@ -73,8 +73,8 @@
         {
           "id": "P2-PRODUCER",
           "name": "Scheduler/producer behavior supported by actual state and bounded host proof",
-          "state": "pending",
-          "evidence": null
+          "state": "passed",
+          "evidence": "docs/areas/spurs.md"
         },
         {
           "id": "P2-RUN",

@@ -1,71 +1,55 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-09-12",
+  "snapshot_date": "2026-09-15",
   "target_title": "Twisted Metal (2012), PlayStation 3",
-  "initiative": "Franklin Wilster (FrankCG), Brazil",
+  "initiative": "Franklin Wilster (FranklinCG), Brazil",
   "state": "research_pre_menu",
-  "canonical_runtime_phase": "H10 guest-state coherence",
-  "canonical_phase_closed": false,
-  "combined_windows_integration": "pending",
+  "canonical_runtime_phase": "R39N6 native scheduler validation",
+  "canonical_phase_closed": true,
+  "canonical_phase_result": "CLOSED_CONSUMED_BLOCKED_N6_BUILD",
+  "h10_host_coherence": "closed_pass",
+  "h11_scheduler_poll_host": "closed_pass",
+  "n6_native_validation": {
+    "classification": "NO_VALID_NATIVE_OBSERVATION",
+    "build_count": 1,
+    "link_count": 0,
+    "run_count": 0,
+    "blocker_class": "missing_existing_diagnostic_include_dependency",
+    "retry_performed": false
+  },
   "game_build_link_run_authorized": false,
   "next_native_campaign_authorized": false,
   "menu_verified": false,
   "gameplay_verified": false,
   "overall_completion_percent": null,
   "release_eta": null,
-  "basis": "Maintainer-supplied research reports and separately-read development dispatch; historical tests not rerun by publication preparation.",
-  "historical_evidence": [
+  "basis": "Canonical private host proofs plus sanitized N6 publication; no private paths, game data or raw traces exported.",
+  "reference_heads": {
+    "sp00nznet/twistedmetal": "7858472a75ddba7b527242723a9443003759a614",
+    "sp00nznet/ps3recomp": "fddf580d48b4c71b2fa2a5ac6356a706bf873c35",
+    "RPCS3/rpcs3": "1b569fde4d2dc8a57531bef8a310bf113e2c1324"
+  },
+  "verified_host_evidence": [
     {
-      "id": "H10-WINDOWS-MODEL",
-      "type": "standalone_host",
-      "distinct_checks": 121,
-      "variants": [
-        "normal",
-        "ASan",
-        "UBSan"
-      ],
-      "reported_failures_per_variant": 0,
-      "is_combined_integration": false
+      "id": "H10-FINAL-HOST",
+      "type": "combined_windows_host_integration",
+      "result": "pass",
+      "native_game_execution": false
     },
     {
-      "id": "H10-PRIOR-INTEGRATION",
-      "type": "earlier_host_integration_report",
-      "checks_per_variant": 39,
-      "variants": [
-        "normal",
-        "ASan",
-        "UBSan"
-      ],
-      "is_current_combined_candidate": false
-    },
-    {
-      "id": "UPSTREAM-COHERENCE-COMPONENT",
-      "type": "linux_component_fixture",
-      "checks_per_variant": 68,
-      "variants": [
-        "normal",
-        "ASan",
-        "UBSan"
-      ],
-      "is_combined_integration": false
-    },
-    {
-      "id": "GETLLAR-SNAPSHOT-PROPERTY",
-      "type": "linux_extracted_case_property",
-      "checks_per_variant": 36,
-      "variants": [
-        "normal",
-        "ASan",
-        "UBSan"
-      ],
-      "proves_atomic_128_byte_read_against_all_writers": false
+      "id": "H11-SCHEDULER-POLL-HOST",
+      "type": "scheduler_state_poll_semantics",
+      "result": "pass",
+      "found_workload_forced": false,
+      "native_game_execution": false
     }
   ],
   "open_gaps": [
-    "Combined Windows candidate against actual participating writers",
-    "Context registry retirement/reuse and lifetime",
-    "ABI-compatible upstream adaptation and lock order",
-    "Scheduler/producer state not yet established",
-    "Complete redistributable source/build closure for public contributors"
-  ]
+    "Make the existing diagnostic include dependency explicit in a separately authorized host/tooling phase",
+    "Prove the corrected native build recipe without consuming another native run",
+    "Obtain fresh authorization for a later native scheduler observation",
+    "Complete redistributable source/build closure for public contributors",
+    "Verify native menu rendering and gameplay"
+  ],
+  "cross_project_note": "The same-title public port has later visual/RSX achievements; they are reference material and are not counted as this initiative's progress."
 }

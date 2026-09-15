@@ -161,14 +161,14 @@
     "data/milestones.json": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "79d46eebdc35fddee507f8074820100b1e798e225214560438331bc69d543352",
-      "bytes": 4267
+      "sha256": "c5ef3ab743f8b0321abe1020e7a06b793d910d1cf289735c4ca2e274baadc7a1",
+      "bytes": 4495
     },
     "data/status.json": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "aea03b0d10022ef9be549ef1c58cf24e1247bd806bb12beb3252da2bf010ea41",
-      "bytes": 2102
+      "sha256": "66ac427bd9b47ec2fd36e4897f87b86f83d304901ccc75621999efe392a1d3ca",
+      "bytes": 2239
     },
     "data/work_items.json": {
       "origin": "original-public-contribution-kit",
@@ -209,8 +209,8 @@
     "docs/PROGRESS.md": {
       "origin": "generated-from-reviewed-acceptance-gates",
       "license": "MIT",
-      "sha256": "255c44c4342bbce9648868873424cf7454ba5201ee01fc26f54f1e13414daedb",
-      "bytes": 1089
+      "sha256": "ccd2f79e8c74125ed85d3b7127ba5b4f3b8060b7927eb786c84b9dfcb4ee3151",
+      "bytes": 1090
     },
     "docs/PROGRESS_POLICY.md": {
       "origin": "original-public-contribution-kit",
@@ -239,8 +239,8 @@
     "docs/STATUS.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "f5ac9f564d6c558e70d095bee2391434f7efa45d0cd382d0e9200c760dc65aca",
-      "bytes": 2189
+      "sha256": "416d4220da385557d495aaf8c858a1a15bd322fe7e826e0e5038ee9e92d4ee9f",
+      "bytes": 2800
     },
     "docs/WORK_ITEMS.md": {
       "origin": "original-public-contribution-kit",
@@ -305,8 +305,8 @@
     "docs/areas/spurs.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "c263894f733fbb094ad764cd726c32292d9c01a03b28857870497df7b7e68b77",
-      "bytes": 976
+      "sha256": "c0023385e0a40c2f7c331a8bc6f9080fe5d423da2e6f32b809eb33e67c71f667",
+      "bytes": 2109
     },
     "docs/areas/storage.md": {
       "origin": "original-public-contribution-kit",
@@ -335,8 +335,8 @@
     "publication/PUBLICATION_STATE.json": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "9a52e5e1eb833da5f2f4c90b0e6d57b01226c3fb4f14851a720856fcf3003975",
-      "bytes": 458
+      "sha256": "3eee43fd93cdc9be4621981ed4f841562044adc2d961b0c0c3c57cb7c727f6d6",
+      "bytes": 511
     },
     "publication/allowlist.json": {
       "origin": "manual-exact-source-selection",
