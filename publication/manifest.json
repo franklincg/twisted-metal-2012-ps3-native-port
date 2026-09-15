@@ -53,7 +53,7 @@
     ".github/workflows/host.yml": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "9654cb7fd8a9ab68cdcd145d51d67574bff62cd2492451ffd8ec613fe388e108",
+      "sha256": "ad1ae43d3e4a42182e0d8abf45b216b62b810a91cc1fed27e5f7c2dbafd5c067",
       "bytes": 1693
     },
     ".gitignore": {
