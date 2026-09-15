@@ -1,10 +1,10 @@
-# Build the public host probe
+# Build the public host probes
 
 ## Scope
 
 The default build produces **one synthetic C executable**, not a game, emulator, lifted workload or replacement production runtime. It reads and writes only synthetic in-process byte arrays. The Python tooling similarly operates only on this public package or explicitly selected temporary test directories.
 
-Requirements: Python 3.10+; CMake 3.20+; a C11 compiler. Linux GCC/Clang and Windows MSVC/Clang are intended host targets for the small probe. This publication preparation validates the Linux environment only; do not claim a Windows CI result until the hosted job actually runs.
+Requirements: Python 3.10+; CMake 3.20+; a C11 compiler. Linux GCC/Clang and Windows MSVC/Clang are intended host targets for the small portable probe.
 
 ```sh
 python -m unittest discover -s tests -v
@@ -23,11 +23,21 @@ cmake --build build-sanitized
 ctest --test-dir build-sanitized --output-on-failure
 ```
 
-Sanitizers do not prove the absence of races. This probe is not a concurrency test.
+Sanitizers do not prove the absence of races. The portable layout probe is not a concurrency test.
 
-## Historical H10 model
+## Historical H10 Windows host reference
 
-`research/h10_reference/` contains selectively audited source from a prior standalone Windows contract reconstruction. It is **review material**, excluded from default CMake and CI. The exact production headers, allocator, wake protocol and combined Windows integration are not supplied as a public drop-in build. See its README and PUB-001. Do not manufacture new PASS counts from those historical results.
+`research/h10_reference/` contains the reviewed H10 host-model sources plus the exact redistributable header closure required by that historical suite. The support closure is pinned and documented in `research/h10_reference/PROVENANCE.json`; it contains no game binaries, lifted game functions, assets, keys or private traces.
+
+This target is **Windows-only** because the historical suite deliberately exercises Win32 thread/SRW-lock behavior. It remains a reference-model test, not the combined production runtime and not a game execution. Build it with Visual Studio/MSVC (the target enables MSVC C11 atomics explicitly):
+
+```powershell
+cmake -S . -B build-h10 -DTM_PUBLIC_H10_REFERENCE=ON
+cmake --build build-h10 --config Release --target tm2012_h10_reference
+ctest --test-dir build-h10 -C Release -R h10_reference_host --output-on-failure
+```
+
+The expected historical contract is 121 host checks. A passing public build proves only that this exported reference suite is reproducible from the repository. It does **not** prove H11 scheduler integration, a native PS3 workload run, menu rendering or gameplay.
 
 ## Game build
 

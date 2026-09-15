@@ -53,8 +53,8 @@
     ".github/workflows/host.yml": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "6b878bde8d96b60ae2bd1f71ebc7d87692d24e3cd3cb46bcba703e32d5a295d2",
-      "bytes": 1450
+      "sha256": "9654cb7fd8a9ab68cdcd145d51d67574bff62cd2492451ffd8ec613fe388e108",
+      "bytes": 1693
     },
     ".gitignore": {
       "origin": "original-public-contribution-kit",
@@ -77,14 +77,14 @@
     "BUILDING.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "aaa370cc9c8ca83af246dc6fd156bfd8825539940979f72221b597cb070deb90",
-      "bytes": 1965
+      "sha256": "e222cfd84678309a48fdc6f2d57110f0a410e3561c72fa446a18da8e64e0fee1",
+      "bytes": 2575
     },
     "CMakeLists.txt": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "5def7eb41ead7b3c10603a4ffa8619d125842c2ee8e903ccf8fa06a917668c4d",
-      "bytes": 1127
+      "sha256": "8795ec221736cd1d7346adf75fbc458abb681ac63b781a4f3c7ceb67a44fb230",
+      "bytes": 2201
     },
     "CODE_OF_CONDUCT.md": {
       "origin": "original-public-contribution-kit",
@@ -143,14 +143,14 @@
     "SOURCES.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "2ff82fdfc617afdbe8760c88fc42649537d8173f63d3f45d38f99b3c791d7fdf",
-      "bytes": 2056
+      "sha256": "653695510cfd9e4ecf778e69f04609cbeecd63305881b490e6374f93560aecfd",
+      "bytes": 2431
     },
     "THIRD_PARTY_NOTICES.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "604d64735de7cb8d227f9750c0bbec2b452c4c4b43ba54200049a4e8d2d05aab",
-      "bytes": 1210
+      "sha256": "1ddb00fd9afdeaf707cc904e35689ab9c28e5456fa0d4196be31a422de716b7b",
+      "bytes": 1601
     },
     "contracts/taskset_layout.json": {
       "origin": "original-public-contribution-kit",
@@ -341,14 +341,14 @@
     "publication/allowlist.json": {
       "origin": "manual-exact-source-selection",
       "license": "MIT",
-      "sha256": "7cff201a16eec2e4963c535b0f609fb73fc1bddb835b72040862695c2bd33206",
-      "bytes": 11592
+      "sha256": "a0fa33a3e24b72f4699924243744103672041819d857ec9a409b21500b5dd6aa",
+      "bytes": 13635
     },
     "publication/local_validation.json": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "f31d6a3a83b9a3ba765779a22310fed6d43ac4ed9e40b7ce3f1cb9350a3df06d",
-      "bytes": 4393
+      "sha256": "f433e82b6ad7bf414e829da6812f4e8a105e476a802bbcdab11730910afb5585",
+      "bytes": 5601
     },
     "publication/repo-settings.json": {
       "origin": "original-public-contribution-kit",
@@ -359,14 +359,14 @@
     "research/h10_reference/PROVENANCE.json": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "bccea2f3f10856a8d458ebf4dbbf49561afa5782a31b5fbe042ddbe04d86bd0d",
-      "bytes": 2908
+      "sha256": "74f4136a64d7bf14863afef94cb331186fdd687442116b1b62946b22f7582da8",
+      "bytes": 6556
     },
     "research/h10_reference/README.md": {
       "origin": "original-public-contribution-kit",
       "license": "MIT",
-      "sha256": "def0a832bc3627643c578feec0057576e248b85ac6066e4e9d11c45080e1fba1",
-      "bytes": 1740
+      "sha256": "d67b0f4b39a325687b3d0e69ac83b4e2e11b28f23d0371423ddbd36da7181101",
+      "bytes": 2117
     },
     "research/h10_reference/active_api_extract.inc": {
       "origin": "maintainer-supplied-historical-host-model",
@@ -451,6 +451,48 @@
       "license": "MIT",
       "sha256": "bd5fbb7bee54d0b7d116084775fcadfea91189dcb6620fcfafa0196b833162c3",
       "bytes": 1677
+    },
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/endian.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:include/ps3emu/endian.h",
+      "license": "MIT",
+      "sha256": "07e796497b1251ec3c5cf9bf9efded7d2f4a69c839b8192be81cc5f39cd0735d",
+      "bytes": 3754
+    },
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/error_codes.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:include/ps3emu/error_codes.h",
+      "license": "MIT",
+      "sha256": "20af4129ab358a83b3aad6489edf4815998a92802a3d8bb93aee50a6c725a8fc",
+      "bytes": 9289
+    },
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/ps3types.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:include/ps3emu/ps3types.h",
+      "license": "MIT",
+      "sha256": "47d000286f589eca58f3647e4b3213e75f8d4164a6c50ad59e3a3754ac6ffec6",
+      "bytes": 7094
+    },
+    "research/h10_reference/upstream/ps3recomp/libs/spurs/cellSpurs.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:libs/spurs/cellSpurs.h",
+      "license": "MIT",
+      "sha256": "33d99a2e555ff82597ce79349106483e5926dc9e1793a661e5550fde2138a9b0",
+      "bytes": 11461
+    },
+    "research/h10_reference/upstream/ps3recomp/libs/spurs/spurs_taskset.h": {
+      "origin": "project TM64181 linkage patch on sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:libs/spurs/spurs_taskset.h",
+      "license": "MIT",
+      "sha256": "bbd768fa5fa9191f90d3cda4f366c3d2a21e0decdbcb8b49e0902d91b26de44f",
+      "bytes": 7345
+    },
+    "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_context.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:runtime/ppu/ppu_context.h",
+      "license": "MIT",
+      "sha256": "0fe6e1fee2f6791ec750017f401f4adf22f6bb949ae026070b715ae4fd81f6e1",
+      "bytes": 6812
+    },
+    "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_memory.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:runtime/ppu/ppu_memory.h",
+      "license": "MIT",
+      "sha256": "517c6b34215efa76680151cb6e7a4bb87fd01371bc734f330a096fd579e6bc64",
+      "bytes": 7298
     }
   }
 }

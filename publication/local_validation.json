@@ -143,5 +143,55 @@
       0,
       0
     ]
+  },
+  "pub001_closure_validation_2026_09_15": {
+    "status": "PASS_LOCAL",
+    "scope": "fresh public branch checkout plus reviewed H10 host build-support closure; no game or combined production-runtime integration",
+    "os": "Windows",
+    "compiler": "MSVC 19.44.35228.0",
+    "python": "3.14.4",
+    "publication_audit": {
+      "files": 83,
+      "result": "PASS"
+    },
+    "python_unit_tests": {
+      "total": 31,
+      "passed": 30,
+      "failed": 0,
+      "skipped": 1,
+      "skip_reason": "symlink creation not permitted"
+    },
+    "default_public_probe": {
+      "ctest": {
+        "tests": 1,
+        "passed": 1,
+        "failed": 0
+      }
+    },
+    "h10_reference_host": {
+      "checks": 121,
+      "passed": 121,
+      "failed": 0,
+      "cmake_option": "TM_PUBLIC_H10_REFERENCE=ON",
+      "compiler_flags": [
+        "/std:c17",
+        "/experimental:c11atomics"
+      ],
+      "ctest": {
+        "tests": 1,
+        "passed": 1,
+        "failed": 0
+      },
+      "asan_rerun": false,
+      "ubsan_rerun": false
+    },
+    "game_executed": false,
+    "game_build_link_run": [
+      0,
+      0,
+      0
+    ],
+    "ppu_recompiled": false,
+    "github_ci_for_this_change": "PENDING"
   }
 }

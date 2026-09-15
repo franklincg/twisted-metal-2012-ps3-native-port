@@ -11,6 +11,7 @@
 - Same-title research: https://github.com/sp00nznet/twistedmetal ; documented reference 7858472a75ddba7b527242723a9443003759a614. Separate initiative; do not import its achievements into this dashboard.
 - RPCS3: https://github.com/RPCS3/rpcs3 — semantic reference; any copied source needs its own license/provenance review.
 - Selected historical H10 source provenance: research/h10_reference/PROVENANCE.json.
+- Historical H10 build-support closure: seven reviewed headers under `research/h10_reference/upstream/ps3recomp/`, pinned to ps3recomp `25e5efe1793fffb0e98782f35a6e6a73e552bd8f` plus the documented `TM64181_VM_ACCESS_INLINE` linkage correction in `spurs_taskset.h`. This pin is for reproducibility of the historical host suite; it is not the current upstream recommendation.
 
 ## GitHub platform controls
 

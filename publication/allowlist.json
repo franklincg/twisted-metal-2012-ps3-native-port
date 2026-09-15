@@ -77,7 +77,14 @@
     "tools/export_public.py",
     "tools/render_progress.py",
     "tools/seed_issues.py",
-    "tools/update_manifest.py"
+    "tools/update_manifest.py",
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/endian.h",
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/error_codes.h",
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/ps3types.h",
+    "research/h10_reference/upstream/ps3recomp/libs/spurs/cellSpurs.h",
+    "research/h10_reference/upstream/ps3recomp/libs/spurs/spurs_taskset.h",
+    "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_context.h",
+    "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_memory.h"
   ],
   "origins": {
     "README.md": {
@@ -378,6 +385,34 @@
     },
     "publication/allowlist.json": {
       "origin": "manual-exact-source-selection",
+      "license": "MIT"
+    },
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/endian.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:include/ps3emu/endian.h",
+      "license": "MIT"
+    },
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/error_codes.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:include/ps3emu/error_codes.h",
+      "license": "MIT"
+    },
+    "research/h10_reference/upstream/ps3recomp/include/ps3emu/ps3types.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:include/ps3emu/ps3types.h",
+      "license": "MIT"
+    },
+    "research/h10_reference/upstream/ps3recomp/libs/spurs/cellSpurs.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:libs/spurs/cellSpurs.h",
+      "license": "MIT"
+    },
+    "research/h10_reference/upstream/ps3recomp/libs/spurs/spurs_taskset.h": {
+      "origin": "project TM64181 linkage patch on sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:libs/spurs/spurs_taskset.h",
+      "license": "MIT"
+    },
+    "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_context.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:runtime/ppu/ppu_context.h",
+      "license": "MIT"
+    },
+    "research/h10_reference/upstream/ps3recomp/runtime/ppu/ppu_memory.h": {
+      "origin": "sp00nznet/ps3recomp@25e5efe1793fffb0e98782f35a6e6a73e552bd8f:runtime/ppu/ppu_memory.h",
       "license": "MIT"
     }
   }
